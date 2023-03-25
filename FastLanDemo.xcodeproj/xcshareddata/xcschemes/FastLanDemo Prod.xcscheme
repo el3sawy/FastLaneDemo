@@ -26,8 +26,30 @@
       buildConfiguration = "Prod Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "924B6E6529B51A63008EC8CC"
+            BuildableName = "FastLanDemo.app"
+            BlueprintName = "FastLanDemo"
+            ReferencedContainer = "container:FastLanDemo.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "92F2148D29CF88EF00FD88CF"
+               BuildableName = "FastLanDemoTests.xctest"
+               BlueprintName = "FastLanDemoTests"
+               ReferencedContainer = "container:FastLanDemo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

@@ -14,8 +14,19 @@
 		924B6E7329B51A64008EC8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924B6E7229B51A64008EC8CC /* Assets.xcassets */; };
 		924B6E7629B51A64008EC8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924B6E7429B51A64008EC8CC /* LaunchScreen.storyboard */; };
 		92CC94B329CA303D0064F76E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92CC94B229CA303D0064F76E /* GoogleService-Info.plist */; };
+		92F2149129CF88EF00FD88CF /* FastLanDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2149029CF88EF00FD88CF /* FastLanDemoTests.swift */; };
 		B5BAC6997941743E5AA0B1BB /* Pods_FastLanDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F703BAD584331C2A90BF4321 /* Pods_FastLanDemo.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92F2149229CF88EF00FD88CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924B6E5E29B51A63008EC8CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924B6E6529B51A63008EC8CC;
+			remoteInfo = FastLanDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D51563036404C9E5F3834A5 /* Pods-FastLanDemo.dev release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLanDemo.dev release.xcconfig"; path = "Target Support Files/Pods-FastLanDemo/Pods-FastLanDemo.dev release.xcconfig"; sourceTree = "<group>"; };
@@ -32,6 +43,8 @@
 		924B6E7529B51A64008EC8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		924B6E7729B51A64008EC8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92CC94B229CA303D0064F76E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		92F2148E29CF88EF00FD88CF /* FastLanDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLanDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F2149029CF88EF00FD88CF /* FastLanDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastLanDemoTests.swift; sourceTree = "<group>"; };
 		E1CDC1F1533E6B3939F46048 /* Pods-FastLanDemo.prod debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastLanDemo.prod debug.xcconfig"; path = "Target Support Files/Pods-FastLanDemo/Pods-FastLanDemo.prod debug.xcconfig"; sourceTree = "<group>"; };
 		F703BAD584331C2A90BF4321 /* Pods_FastLanDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastLanDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -45,6 +58,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92F2148B29CF88EF00FD88CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -52,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				924B6E6829B51A63008EC8CC /* FastLanDemo */,
+				92F2148F29CF88EF00FD88CF /* FastLanDemoTests */,
 				924B6E6729B51A63008EC8CC /* Products */,
 				96C5560AABFBC4158BC66F2B /* Pods */,
 				CD0D42C158E47C6FD4BFF48E /* Frameworks */,
@@ -62,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				924B6E6629B51A63008EC8CC /* FastLanDemo.app */,
+				92F2148E29CF88EF00FD88CF /* FastLanDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +101,14 @@
 				924B6E7729B51A64008EC8CC /* Info.plist */,
 			);
 			path = FastLanDemo;
+			sourceTree = "<group>";
+		};
+		92F2148F29CF88EF00FD88CF /* FastLanDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				92F2149029CF88EF00FD88CF /* FastLanDemoTests.swift */,
+			);
+			path = FastLanDemoTests;
 			sourceTree = "<group>";
 		};
 		96C5560AABFBC4158BC66F2B /* Pods */ = {
@@ -124,6 +154,24 @@
 			productReference = 924B6E6629B51A63008EC8CC /* FastLanDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		92F2148D29CF88EF00FD88CF /* FastLanDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92F2149A29CF88EF00FD88CF /* Build configuration list for PBXNativeTarget "FastLanDemoTests" */;
+			buildPhases = (
+				92F2148A29CF88EF00FD88CF /* Sources */,
+				92F2148B29CF88EF00FD88CF /* Frameworks */,
+				92F2148C29CF88EF00FD88CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92F2149329CF88EF00FD88CF /* PBXTargetDependency */,
+			);
+			name = FastLanDemoTests;
+			productName = FastLanDemoTests;
+			productReference = 92F2148E29CF88EF00FD88CF /* FastLanDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,11 +179,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1320;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					924B6E6529B51A63008EC8CC = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					92F2148D29CF88EF00FD88CF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 924B6E6529B51A63008EC8CC;
 					};
 				};
 			};
@@ -153,6 +205,7 @@
 			projectRoot = "";
 			targets = (
 				924B6E6529B51A63008EC8CC /* FastLanDemo */,
+				92F2148D29CF88EF00FD88CF /* FastLanDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -166,6 +219,13 @@
 				92CC94B329CA303D0064F76E /* GoogleService-Info.plist in Resources */,
 				924B6E7329B51A64008EC8CC /* Assets.xcassets in Resources */,
 				924B6E7129B51A63008EC8CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F2148C29CF88EF00FD88CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +284,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92F2148A29CF88EF00FD88CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F2149129CF88EF00FD88CF /* FastLanDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92F2149329CF88EF00FD88CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924B6E6529B51A63008EC8CC /* FastLanDemo */;
+			targetProxy = 92F2149229CF88EF00FD88CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		924B6E6F29B51A63008EC8CC /* Main.storyboard */ = {
@@ -796,6 +872,126 @@
 			};
 			name = "Dev Release";
 		};
+		92F2149429CF88EF00FD88CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.FastLanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastLanDemo";
+			};
+			name = Debug;
+		};
+		92F2149529CF88EF00FD88CF /* Dev Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.FastLanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastLanDemo";
+			};
+			name = "Dev Debug";
+		};
+		92F2149629CF88EF00FD88CF /* Prod Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.FastLanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastLanDemo";
+			};
+			name = "Prod Debug";
+		};
+		92F2149729CF88EF00FD88CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.FastLanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastLanDemo";
+			};
+			name = Release;
+		};
+		92F2149829CF88EF00FD88CF /* Dev Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.FastLanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastLanDemo";
+			};
+			name = "Dev Release";
+		};
+		92F2149929CF88EF00FD88CF /* Prod Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8J56NYW84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.FastLanDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLanDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FastLanDemo";
+			};
+			name = "Prod Release";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -821,6 +1017,19 @@
 				924B6E7C29B51A64008EC8CC /* Release */,
 				92632FDF29C661D5000B04AA /* Dev Release */,
 				92632FDB29C661BD000B04AA /* Prod Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92F2149A29CF88EF00FD88CF /* Build configuration list for PBXNativeTarget "FastLanDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92F2149429CF88EF00FD88CF /* Debug */,
+				92F2149529CF88EF00FD88CF /* Dev Debug */,
+				92F2149629CF88EF00FD88CF /* Prod Debug */,
+				92F2149729CF88EF00FD88CF /* Release */,
+				92F2149829CF88EF00FD88CF /* Dev Release */,
+				92F2149929CF88EF00FD88CF /* Prod Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
