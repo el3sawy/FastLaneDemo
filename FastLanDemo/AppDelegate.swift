@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("DEV")
         #elseif PROD
         print("Prod")
+        print("Ahmed")
         #endif
         
         FirebaseApp.configure()
