@@ -16,9 +16,20 @@ import MIRSnapper
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let array = (UserDefaults.standard.array(forKey: userKey) as? [String]) ?? []
+        print(array.count)
+        for i in array {
+            print(i, "===")
+            lbl.text =  (lbl.text ?? "") + i 
+        }
     }
 
 
